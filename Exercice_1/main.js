@@ -1,7 +1,7 @@
 let img = document.querySelector('#image1');
 
-img.addEventListener("mouseover", addOrRemoveBorder);
-img.addEventListener("mouseout", addOrRemoveBorder);
+img.addEventListener("mouseenter", addOrRemoveBorder);
+img.addEventListener("mouseleave", addOrRemoveBorder);
 
 function addOrRemoveBorder(){
    if(this.classList.contains('redBorder')){
